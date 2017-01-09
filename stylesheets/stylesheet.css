@@ -1,10 +1,31 @@
 .jumbotron {
     background-color: forestgreen;
     color: white;
-
-
 }
 
+.jumbotron h2 {
+    margin-bottom: 20px;
+}
+
+.jumbotron a:link,
+.jumbotron a:visited,
+.jumbotron a:focus {
+    color: white;
+    padding: 20px;
+    font-size: 18px; /* a-las h4 */
+    border: solid 1px;
+    border-radius: 4px;
+}
+
+.jumbotron a:hover {
+    background-color: yellow;
+    color: black;
+    border-color: white;
+}
+
+.jumbotron h4 {
+    margin-top: 50px;
+}   
 @media (max-width: 767px) { 
     .jumbotron {
         text-align: center;
